@@ -1,0 +1,49 @@
+.header{
+    background-color: #1E1E1E;
+    color: #F7F7F7;
+    height: 60px;
+}
+.home{
+    background-color: #1E1E1E;
+    color: #F7F7F7;
+}
+.projects{
+    background-color: #1E1E1E;
+}
+body, html{
+background-color:  #1E1E1E;
+color: #F7F7F7;
+}
+
+.header li{
+    color: #F7F7F7;
+    text-transform: none;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+}
+.hello-intro-pfp{width:2.2rem;height:2.2rem;border-radius:50%;transition:300ms}
+.hello-intro .hello-intro-pfp:hover{transform:scale(1.2)}
+.hello-intro .hello-intro-bubble{background:#6D9886;padding:7px 9px;font-size:.95rem;color:#F7F7F7;display:inline-block;border-radius:3px;font-weight:700;position:relative;line-height:1}
+.hello-intro .hello-intro-bubble:after{content:"";width:10px;height:10px;background:#6D9886;position:absolute;left:15px;bottom:-5px;transform:rotate(45deg)}
+.hello-intro .hello-intro-bubble .wave{animation-name:wave;animation-duration:1s;animation-delay:1s;display:inline-block;font-size:.9rem}@keyframes wave{0%{transform:rotate(0deg)}20%{transform:rotate(-15deg)}40%{transform:rotate(15deg)}60%{transform:rotate(-15deg)}80%{transform:rotate(15deg)}100%{transform:rotate(0deg)}}code{font-family:monospace;background:#F7F7F7;padding:0 2px;border-radius:3px}
+.callout{color:#6D9886;text-align:center;text-transform:uppercase;font-weight:700;font-size:.75em;margin:0;padding:0;letter-spacing:.5px}
+.contacts-link{
+    color: #6D9886;
+}
+
+figcaption{
+    color: #F7F7F7 !important;
+    font-family: "Playfair Display",serif;
+    font-weight: 400 !important;
+    letter-spacing: 1px;
+    font-size: 30px !important;
+}
+figure img{
+    min-height: 250px;
+}
+.footer{
+    background-color: #F7F7F7;
+}
