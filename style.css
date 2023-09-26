@@ -1,13 +1,14 @@
-.header{
+#header{
     background-color: #1E1E1E;
     color: #F7F7F7;
     height: 60px;
 }
-.home{
+
+#home{
     background-color: #1E1E1E;
     color: #F7F7F7;
 }
-.projects{
+#projects{
     background-color: #1E1E1E;
 }
 body, html{
@@ -15,7 +16,7 @@ background-color:  #1E1E1E;
 color: #F7F7F7;
 }
 
-.header li{
+#header li{
     color: #F7F7F7;
     text-transform: none;
     letter-spacing: 1px;
@@ -36,7 +37,7 @@ color: #F7F7F7;
 
 figcaption{
     color: #F7F7F7 !important;
-    font-family: "Playfair Display",serif;
+    font-family: assistant,sans-serif;
     font-weight: 400 !important;
     letter-spacing: 1px;
     font-size: 30px !important;
@@ -44,6 +45,9 @@ figcaption{
 figure img{
     min-height: 250px;
 }
-.footer{
-    background-color: #F7F7F7;
+#contacts{
+    background-color:  #1E1E1E;
+}
+.link{
+    color: #6D9886 !important;
 }
