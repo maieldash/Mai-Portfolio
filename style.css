@@ -1,3 +1,14 @@
+body,
+html {
+  height: 100%;
+}
+.h-80{
+    height: 80%;
+}
+.img-thumbnail{
+    width: 100%;
+    object-fit: cover;
+}
 #header{
     background-color: #1E1E1E;
     color: #F7F7F7;
@@ -44,6 +55,9 @@ figcaption{
 }
 figure img{
     min-height: 250px;
+    min-width: 100%;
+    max-width: 100%;
+    flex-shrink: 0;
 }
 #contacts{
     background-color:  #1E1E1E;
